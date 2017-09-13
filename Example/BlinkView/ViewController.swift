@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import BlinkView
 
 class ViewController: UIViewController {
+    
+    let first = First()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        first.printmyname()
+        
     }
 
     override func didReceiveMemoryWarning() {

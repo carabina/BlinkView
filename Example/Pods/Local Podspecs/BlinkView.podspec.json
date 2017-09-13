@@ -1,8 +1,8 @@
 {
   "name": "BlinkView",
   "version": "0.1.0",
-  "summary": "A short description of BlinkView.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "this is a blink view creted with swift",
+  "description": "this blink view help users to show blinking view easily with swift.",
   "homepage": "https://github.com/AnuradhSC/BlinkView",
   "license": {
     "type": "MIT",
@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BlinkView/Classes/**/*"
+  "source_files": "BlinkView/Classes/**/*",
+  "frameworks": "UIKit"
 }

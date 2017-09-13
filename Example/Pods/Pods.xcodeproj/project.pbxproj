@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1222CFD7F8FA5D8F6DD8033934E756A4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173ED293E142B9B53B1074CEA57A919D /* ReplaceMe.swift */; };
+		31AEA308E37537C4C2EE35842FFB2847 /* BlinkView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFD14874767C3506EB9B353C628C484 /* BlinkView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		394DDB90ACD70BB374B7C57865C2E627 /* Pods-BlinkView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C37CA7D466F9A652FD5902F7F95602D6 /* Pods-BlinkView_Tests-dummy.m */; };
-		5D39D0CCF11B0A446A3756E6A8675CB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5E1366D76B83B0EFA3DB74F0AC79B620 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5E1366D76B83B0EFA3DB74F0AC79B620 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		62C6ED9F77DAE300BEECE163575B8425 /* Pods-BlinkView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DC3D3EB74B348529413494391857C2 /* Pods-BlinkView_Example-dummy.m */; };
+		65D297276F69314FFA7C576BF4A108E1 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412F6ACF51BF4DB96E2F760FCF8B738D /* First.swift */; };
 		6A627DE11A98E2BC11D56452DF5AE354 /* Pods-BlinkView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A6EE3A7BDBEF2C5AF729E452323641 /* Pods-BlinkView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A287E050F0F3E12D5B08DA46BD89AA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		93DF901C648EC95DBAC3D3545775E2F5 /* BlinkView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E246F9475284C1CBB768BEAEFABFA360 /* BlinkView-dummy.m */; };
-		A9ED36EF7E279F17F1E8AF19784E1B58 /* BlinkView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8B7777324DAC7778BAE50E9D41990D /* BlinkView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A287E050F0F3E12D5B08DA46BD89AA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		AA8B27388E7A1EA69331D84019F39DCB /* BlinkView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10D0B4213D12E673C39A4D3EA16892 /* BlinkView-dummy.m */; };
+		BE68DA021F6902520030D70A /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE68DA011F6902520030D70A /* Second.swift */; };
+		C80B53D2EE952DCE90061981D43A7A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		CA8C0918060DC73FB8892F5020DDB7F6 /* Pods-BlinkView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87071CDFB4F680BA499C45A9B0F6B0C7 /* Pods-BlinkView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8DE98564531E65F4FDA36906D5330A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,52 +26,55 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 195B3E5C756EA55DC3382B59D104C5B6;
+			remoteGlobalIDString = 63DB85960AD454DF9551B60AFDAC99A9;
 			remoteInfo = BlinkView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0222F80C51920CD50B4AA7EEB31CA8F5 /* Pods_BlinkView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BlinkView_Tests.framework; path = "Pods-BlinkView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C9F9875029ACCAEEE6A737B80214E82 /* Pods-BlinkView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BlinkView_Example.modulemap"; sourceTree = "<group>"; };
+		0222F80C51920CD50B4AA7EEB31CA8F5 /* Pods_BlinkView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C9F9875029ACCAEEE6A737B80214E82 /* Pods-BlinkView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BlinkView_Example.modulemap"; sourceTree = "<group>"; };
+		0D10D0B4213D12E673C39A4D3EA16892 /* BlinkView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlinkView-dummy.m"; sourceTree = "<group>"; };
 		105629DA42D529E401B16174810D3C42 /* Pods-BlinkView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlinkView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		16DC3D3EB74B348529413494391857C2 /* Pods-BlinkView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlinkView_Example-dummy.m"; sourceTree = "<group>"; };
-		173ED293E142B9B53B1074CEA57A919D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BlinkView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1DC55525050C4F7F4A51CC0B52CDD9BB /* Pods-BlinkView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlinkView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1EF35C8F16D9119FFB6011A067A4EBEF /* BlinkView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlinkView-prefix.pch"; sourceTree = "<group>"; };
 		30C6A1EFF314346D7120B59163778D63 /* Pods-BlinkView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlinkView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		37A6EE3A7BDBEF2C5AF729E452323641 /* Pods-BlinkView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlinkView_Example-umbrella.h"; sourceTree = "<group>"; };
-		38F149C1BB04B77E1145B86FDB7134CA /* BlinkView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BlinkView.modulemap; sourceTree = "<group>"; };
+		412F6ACF51BF4DB96E2F760FCF8B738D /* First.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = First.swift; path = BlinkView/Classes/First.swift; sourceTree = "<group>"; };
 		4BF2A54768C1E1A0DCF6A1F9C43FC30D /* Pods-BlinkView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlinkView_Tests-resources.sh"; sourceTree = "<group>"; };
+		5C9979917057C84F2EF370D0CBD40F8A /* BlinkView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlinkView-prefix.pch"; sourceTree = "<group>"; };
 		5ED1971B43251BD56BE16132236E900D /* Pods-BlinkView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlinkView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6276C84137EBC564C5BCE720ECCDA254 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6D03AD42C9261CD5DF3679BD51B43616 /* BlinkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BlinkView.framework; path = BlinkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D03AD42C9261CD5DF3679BD51B43616 /* BlinkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlinkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A18DBEFD73049BC1E0F5A81B5142C8 /* Pods-BlinkView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlinkView_Example-resources.sh"; sourceTree = "<group>"; };
-		7D3D09DC0744FD16971F021B30E61305 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BCA91564CDD43031F5D1641808C4EE3 /* BlinkView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlinkView.xcconfig; sourceTree = "<group>"; };
 		87071CDFB4F680BA499C45A9B0F6B0C7 /* Pods-BlinkView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlinkView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8F2A695EE9FAB5D97E7BDCC5D6B67B58 /* BlinkView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BlinkView.modulemap; sourceTree = "<group>"; };
 		9171EDB0516425415AE6EB4E7C32DFBC /* Pods-BlinkView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlinkView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A876A740740598AB79E4B10A3D36D1 /* Pods-BlinkView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlinkView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9F356C24703C11760D2092446A3E41BE /* Pods-BlinkView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlinkView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AAFD14874767C3506EB9B353C628C484 /* BlinkView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlinkView-umbrella.h"; sourceTree = "<group>"; };
 		B2FCD0526AFEEF26F1B98C9B0557387B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE68DA011F6902520030D70A /* Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
 		C37CA7D466F9A652FD5902F7F95602D6 /* Pods-BlinkView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlinkView_Tests-dummy.m"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DE440BF21E0813FDDD00CA986341C3A7 /* Pods-BlinkView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlinkView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DECD5AA85C96EA837355FE7AF5DDBC9E /* Pods-BlinkView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlinkView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E246F9475284C1CBB768BEAEFABFA360 /* BlinkView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlinkView-dummy.m"; sourceTree = "<group>"; };
-		E2C3CF2C16B8610B161339F23A9DAC1E /* Pods_BlinkView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BlinkView_Example.framework; path = "Pods-BlinkView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E576576ECAD3841226028188BAF71361 /* Pods-BlinkView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BlinkView_Tests.modulemap"; sourceTree = "<group>"; };
-		EF8B7777324DAC7778BAE50E9D41990D /* BlinkView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlinkView-umbrella.h"; sourceTree = "<group>"; };
+		E2C3CF2C16B8610B161339F23A9DAC1E /* Pods_BlinkView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E576576ECAD3841226028188BAF71361 /* Pods-BlinkView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BlinkView_Tests.modulemap"; sourceTree = "<group>"; };
 		F51DEEFC34F2F7C2EDED1C2ACA0148E1 /* Pods-BlinkView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlinkView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F9432CBECED90EE190EF420FE113E98C /* BlinkView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlinkView.xcconfig; sourceTree = "<group>"; };
+		FBC2BB6D6384E8183B239269B6CB0164 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		09E35DA35AE6763D7779320978D1AC75 /* Frameworks */ = {
+		1817A1B9E029EC4416C23CEDA7828806 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D39D0CCF11B0A446A3756E6A8675CB6 /* Foundation.framework in Frameworks */,
+				C80B53D2EE952DCE90061981D43A7A18 /* Foundation.framework in Frameworks */,
+				E8DE98564531E65F4FDA36906D5330A9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,18 +97,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		52B321DC7EE29BD837B32C8827154A58 /* Support Files */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				38F149C1BB04B77E1145B86FDB7134CA /* BlinkView.modulemap */,
-				F9432CBECED90EE190EF420FE113E98C /* BlinkView.xcconfig */,
-				E246F9475284C1CBB768BEAEFABFA360 /* BlinkView-dummy.m */,
-				1EF35C8F16D9119FFB6011A067A4EBEF /* BlinkView-prefix.pch */,
-				EF8B7777324DAC7778BAE50E9D41990D /* BlinkView-umbrella.h */,
-				7D3D09DC0744FD16971F021B30E61305 /* Info.plist */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BlinkView";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		5CDC8EAEDE50CC36C63935A1A8703AE3 /* Pods-BlinkView_Tests */ = {
@@ -124,22 +132,12 @@
 			path = "Target Support Files/Pods-BlinkView_Tests";
 			sourceTree = "<group>";
 		};
-		79E65AC54971A16C460C41E0E7232259 /* BlinkView */ = {
-			isa = PBXGroup;
-			children = (
-				173ED293E142B9B53B1074CEA57A919D /* ReplaceMe.swift */,
-				52B321DC7EE29BD837B32C8827154A58 /* Support Files */,
-			);
-			name = BlinkView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				C9A3F44CE451AFB171805D912798B924 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				B4BBE17B6BE1A560D0FCAED030BAD620 /* Products */,
 				E48B66747556D4C2B3015BAADB48C3CE /* Targets Support Files */,
 			);
@@ -155,28 +153,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C9A3F44CE451AFB171805D912798B924 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				79E65AC54971A16C460C41E0E7232259 /* BlinkView */,
+				CB6E4DE9517591C5E945B7868FD19A3F /* BlinkView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		CB6E4DE9517591C5E945B7868FD19A3F /* BlinkView */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				412F6ACF51BF4DB96E2F760FCF8B738D /* First.swift */,
+				E2FF163C8B5F98C7395BD8DB76717FD8 /* Support Files */,
+				BE68DA011F6902520030D70A /* Second.swift */,
 			);
-			name = iOS;
+			name = BlinkView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D99C2F3035E33EB2F20AC9F0A4ED202D /* Pods-BlinkView_Example */ = {
@@ -197,6 +190,20 @@
 			path = "Target Support Files/Pods-BlinkView_Example";
 			sourceTree = "<group>";
 		};
+		E2FF163C8B5F98C7395BD8DB76717FD8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F2A695EE9FAB5D97E7BDCC5D6B67B58 /* BlinkView.modulemap */,
+				7BCA91564CDD43031F5D1641808C4EE3 /* BlinkView.xcconfig */,
+				0D10D0B4213D12E673C39A4D3EA16892 /* BlinkView-dummy.m */,
+				5C9979917057C84F2EF370D0CBD40F8A /* BlinkView-prefix.pch */,
+				AAFD14874767C3506EB9B353C628C484 /* BlinkView-umbrella.h */,
+				FBC2BB6D6384E8183B239269B6CB0164 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BlinkView";
+			sourceTree = "<group>";
+		};
 		E48B66747556D4C2B3015BAADB48C3CE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,14 +216,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1B7DC395A4AF99CC28880A77C78F0767 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9ED36EF7E279F17F1E8AF19784E1B58 /* BlinkView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C1F36405A904BD8416BB2B74026CA2A4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,26 +232,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDC397FF9D6EDEAB59A0F987C91C0F1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AEA308E37537C4C2EE35842FFB2847 /* BlinkView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		195B3E5C756EA55DC3382B59D104C5B6 /* BlinkView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 64CF31A502B0C00D0FFA47C00E819A6F /* Build configuration list for PBXNativeTarget "BlinkView" */;
-			buildPhases = (
-				39EB67D4E7E5714E3DBCED91EF6BBE43 /* Sources */,
-				09E35DA35AE6763D7779320978D1AC75 /* Frameworks */,
-				1B7DC395A4AF99CC28880A77C78F0767 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BlinkView;
-			productName = BlinkView;
-			productReference = 6D03AD42C9261CD5DF3679BD51B43616 /* BlinkView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		3301FD0CC5F41D469CF9F7B93E89C77C /* Pods-BlinkView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74699C05A2C7D20307A87B99BC87A91A /* Build configuration list for PBXNativeTarget "Pods-BlinkView_Example" */;
@@ -269,6 +259,23 @@
 			name = "Pods-BlinkView_Example";
 			productName = "Pods-BlinkView_Example";
 			productReference = E2C3CF2C16B8610B161339F23A9DAC1E /* Pods_BlinkView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63DB85960AD454DF9551B60AFDAC99A9 /* BlinkView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D9B522660DBA7E020F39DB5ADE3996 /* Build configuration list for PBXNativeTarget "BlinkView" */;
+			buildPhases = (
+				55C455C2568A8DA171A35623F310BF38 /* Sources */,
+				1817A1B9E029EC4416C23CEDA7828806 /* Frameworks */,
+				FDC397FF9D6EDEAB59A0F987C91C0F1F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlinkView;
+			productName = BlinkView;
+			productReference = 6D03AD42C9261CD5DF3679BD51B43616 /* BlinkView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A4363AEBBA11FD98F2D3AC23DA63E412 /* Pods-BlinkView_Tests */ = {
@@ -309,7 +316,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				195B3E5C756EA55DC3382B59D104C5B6 /* BlinkView */,
+				63DB85960AD454DF9551B60AFDAC99A9 /* BlinkView */,
 				3301FD0CC5F41D469CF9F7B93E89C77C /* Pods-BlinkView_Example */,
 				A4363AEBBA11FD98F2D3AC23DA63E412 /* Pods-BlinkView_Tests */,
 			);
@@ -317,12 +324,13 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		39EB67D4E7E5714E3DBCED91EF6BBE43 /* Sources */ = {
+		55C455C2568A8DA171A35623F310BF38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93DF901C648EC95DBAC3D3545775E2F5 /* BlinkView-dummy.m in Sources */,
-				1222CFD7F8FA5D8F6DD8033934E756A4 /* ReplaceMe.swift in Sources */,
+				AA8B27388E7A1EA69331D84019F39DCB /* BlinkView-dummy.m in Sources */,
+				65D297276F69314FFA7C576BF4A108E1 /* First.swift in Sources */,
+				BE68DA021F6902520030D70A /* Second.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,15 +356,15 @@
 		810B9895DAC99F061F336BCE1AAC17A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BlinkView;
-			target = 195B3E5C756EA55DC3382B59D104C5B6 /* BlinkView */;
+			target = 63DB85960AD454DF9551B60AFDAC99A9 /* BlinkView */;
 			targetProxy = 76366178FC0BE4B9250FE2065F5CCA8C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C00678B02A3F108B785E7C2FA52BEBD /* Release */ = {
+		20756781165B675665FE0D19096D5027 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9432CBECED90EE190EF420FE113E98C /* BlinkView.xcconfig */;
+			baseConfigurationReference = 7BCA91564CDD43031F5D1641808C4EE3 /* BlinkView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -510,41 +518,6 @@
 			};
 			name = Release;
 		};
-		968208BCD7B8CE5DCA0D35C345784BE0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9432CBECED90EE190EF420FE113E98C /* BlinkView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BlinkView/BlinkView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BlinkView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BlinkView/BlinkView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = BlinkView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -591,6 +564,41 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D28F4C202747C55CF14EB3C5D952A3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCA91564CDD43031F5D1641808C4EE3 /* BlinkView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BlinkView/BlinkView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlinkView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlinkView/BlinkView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BlinkView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -678,20 +686,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64CF31A502B0C00D0FFA47C00E819A6F /* Build configuration list for PBXNativeTarget "BlinkView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				968208BCD7B8CE5DCA0D35C345784BE0 /* Debug */,
-				1C00678B02A3F108B785E7C2FA52BEBD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		74699C05A2C7D20307A87B99BC87A91A /* Build configuration list for PBXNativeTarget "Pods-BlinkView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60942DE3DCFCB1F7E08E9343E9F19991 /* Debug */,
 				55A4BC5CB5E6D85EFD50C89C18FDEFE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D9B522660DBA7E020F39DB5ADE3996 /* Build configuration list for PBXNativeTarget "BlinkView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28F4C202747C55CF14EB3C5D952A3B4 /* Debug */,
+				20756781165B675665FE0D19096D5027 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
